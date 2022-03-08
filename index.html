@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Griglia Campo Minato</title>
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="col-6">
+                <h1>Campo Minato</h1>
+            </div>
+            <div class="col-6">
+                <div class="input-group input-group-sm">
+                    <select class="form-select" id="inputGroupSelect04">
+                       <option value="1" selected>Easy</option>
+                       <option value="2">Medium</option>
+                       <option value="3">Hard</option>
+                    </select>
+                    <button id="play" class="btn btn-outline-secondary" type="button">Play</button>
+                    <button class="btn btn-outline-secondary" type="button">Reset</button>
+                  </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="row">
+            <div class="col-12">
+                <div id="square"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer></footer>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
